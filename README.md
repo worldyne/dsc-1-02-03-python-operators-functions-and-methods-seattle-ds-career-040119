@@ -3,7 +3,7 @@
 
 ## Introduction
 
-As a data scientist you will spend a lot of time writing code in Python. In this lesson, we're going to instroduce some features built right into the langage that will allow you to perform common tasks more quickly and easily.
+As a data scientist you will spend a lot of time writing code in Python. In this lesson, we're going to introduce some features built right into the langage that will allow you to perform common tasks more quickly and easily.
 
 ## Objectives
 You will be able to:
@@ -72,7 +72,7 @@ Next, let's look at some **list methods**.
 * `.pop()` is used to remove the last element from the list (or if an index is given, it removes the element at that index).
 * `.extend([SECOND_LIST])` is used to add all elements from a second list to the first list.
 
-It is important to note the **return value** from each of these methods is not the resultying list. These operations **alter** the original list on which we are operating.
+It is important to note the **return value** from each of these methods is not the resulting list. These operations **alter** the original list on which we are operating.
 
 
 ```python
@@ -80,7 +80,7 @@ list_append = [1,2,3,4]
 list_append.append(5)
 print(list_append)
 list_pop = [4,5,6,7]
-[4,5,6,7].pop()
+list_pop.pop()
 print(list_pop)
 list_one = [1,2,3]
 list_two = [4,5,6]
